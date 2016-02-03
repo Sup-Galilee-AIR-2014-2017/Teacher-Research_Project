@@ -1,0 +1,42 @@
+<?php 
+
+
+$interfaceCommenceeACoder = false;
+$interfaceCodee = false;
+
+
+?>
+
+
+<html>
+
+	<h1 style="text-align: center"> Bienvenue sur le site d'information sur les Enseignants-chercheurs  </h1>
+	
+	<br/>
+	<div style="margin: 5%; text-align: center">
+	<?php if($interfaceCodee){?>
+	
+		<p>	L'interface graphique est prête !!<p>	
+		<?php }else{
+		
+			if($interfaceCommenceeACoder) {?>
+
+				<p>	L'interface graphique est en cours de développement.<p>
+				
+			<?php }else{ ?>
+				
+				<p>	L'interface graphique n'a toujours pas été commencée pck Mora et Ahmed se touchent la nouille ... xD<p>
+				
+				
+			<?php } 
+		} ?>
+				
+	</div>
+
+</html>
+
+
+
+
+
+

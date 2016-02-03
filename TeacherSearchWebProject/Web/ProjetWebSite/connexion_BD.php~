@@ -1,0 +1,17 @@
+﻿<?php
+	
+	try
+	{
+		// On se connecte à MySQL
+		$BDD = mysql_connect("sql4.freemysqlhosting.net","sql4103734","s81z9hm929");
+		mysql_select_db("sql4103734");  // S�lection de la base de donn�es utilis�e.
+	
+	}
+	catch(Exception $e)
+	{
+		// En cas d'erreur, on affiche un message et on arrête tout
+			die('Erreur : '.$e->getMessage());
+	}
+	
+	
+?> 

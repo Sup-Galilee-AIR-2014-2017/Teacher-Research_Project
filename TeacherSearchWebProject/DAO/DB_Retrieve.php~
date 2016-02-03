@@ -1,0 +1,30 @@
+<?php
+	include('../Modele/DbTablesClasses.php');//Eventuellement chemin à corriger
+	
+	public function InsertUserTable($id, $firstName, $lastName, $idFunction, $idSkill) {
+		
+		//Algo d'insertion en DB
+		
+	}
+
+	public function UpdateUserTable($id, $firstName, $lastName, $idFunction, $idSkill) {
+		
+		//Algo d'update en DB
+		
+	}
+
+	//Cette fonction doit renvoyer un objet de type "User", voir dans le fichier "DbTablesClasses.php" sa définition.
+	public function SelectUserTable($id) {
+		
+		//Algo de selection dans la DB
+		
+	}
+
+
+
+	// FAIRE PAREIL POUR TOUTES LES AUTRES TABLES DE LA DB
+
+
+
+
+?>

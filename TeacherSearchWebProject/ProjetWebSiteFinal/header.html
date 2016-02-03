@@ -1,0 +1,63 @@
+			<div class="row"> <!--Barre de titre -->			
+				<div class="col-md-12">
+					<div class="navbar navbar-inverse">
+						<h2 class="text-center">Site d'information sur les Enseignants-chercheurs</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row"> <!--Barre de menu et de recherche -->		
+				<div class="col-md-12">
+					<div class="col-md-6"> <!--Barre de menu -->
+						<div class="row">
+							<div class="col-md-3" >
+								<a href="index.php" class="nav">
+									Home
+								</a>
+							</div>
+							<div class="col-md-3" >
+								<a href="page_contact.php" class="nav">
+									Contact
+								</a>
+							</div>
+							<div class="col-md-3" >
+								<a href="index.php" class="nav">
+									Link
+								</a>
+							</div>
+						</div>			
+					</div>
+					<div class="col-md-6"> <!--Barre de recherche -->
+						<form action="website.php" method="post" >
+							<div class="input-group"> 
+								<div class="row">
+									
+										<div class="col-md-9">
+											<input type="text" name="text" class="form-control" placeholder="Chercher des enseignants ou des publications">
+										</div>
+										<div class="col-md-3">
+											<div class="input-group-btn"> 
+												<button type="submit" name= "valider" class="btn btn-default" ><span class="glyphicon glyphicon-search"></span></button>
+												<input type="hidden" name= "requete" value="true" />
+											</div>
+										</div>
+									
+								</div>
+								<div class="row">
+									
+										<div class="col-md-9">
+											<input type="radio" name="filtre" value="all" checked> Tout
+											<input type="radio" name="filtre" value="laboratory"> Par Laboratoire
+											<input type="radio" name="filtre" value="publication"> Par Publication
+										</div>
+									
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<hr class="line"/>
+				</div>
+			</div>
